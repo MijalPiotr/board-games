@@ -22,7 +22,7 @@ public class BoardGameDAOImpl implements BoardGameDAO {
 	@Transactional
 	public List<BoardGame> getBoardGames() {
 		
-		// get the current hibernate session 
+		// get the current hibernate session
 		Session currentSession = sessionFactory.getCurrentSession();
 		
 		// create a query 
